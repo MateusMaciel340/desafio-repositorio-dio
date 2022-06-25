@@ -12,3 +12,30 @@ Segue os procedimentos que acontecem no caso anterior:
 - [x] Modifique o arquvo naquela funcionalidade
 - [x] Realize o **git add e git commit -m "mensagem**.
 - [x] E depois deixe o responsável pelo projeto realizar o **merge**.
+
+#### Passo a passo
+
+Crie qualquer arquivo.
+
+Crie uma nova branch
+
+```bash
+git checkout -b branch-nova
+```
+
+Faça atualizações dentro desse arquivo.
+
+Adicione e commite suas atualizações
+
+```bash
+git add .
+git commit -m "mensagem de atualização"
+```
+
+E por último, envie para uma possível merge
+
+```bash
+git origin branch-nova
+```
+
+E logo depois é só realizar o merge normalmente e notar se não existe nenhum conflito na linha alterada.
